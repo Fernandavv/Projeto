@@ -40,8 +40,21 @@ header ul li a{
     display: inline-block;
     color: #333 ;
     font-weight: 400;
+    padding: 6px 15px;
     margin-left: 40px;
     text-decoration: none;
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+  background-color: #256125;
+  color: rgb(255, 255, 255);
+}
+header .act
+{
+  background-color: #68e68e;
+  color: black;
 }
 .content{
     position: relative;
@@ -115,7 +128,7 @@ header ul li a{
   }
   .sci{
     position: absolute;
-    top: 50%;
+    top: 70%;
     right: 30px;
     transform: translate(-50%);
     display: flex;
