@@ -135,3 +135,11 @@ a
     text-decoration: none;
     color: #F53632;
 }
+
+#login
+{
+    color: whitesmoke;
+}
+#login:hover{
+    color: #256125;
+}
