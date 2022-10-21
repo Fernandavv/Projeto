@@ -14,6 +14,15 @@ section{
     align-items: center;
     background: #D3F4D6;
 }
+
+ .textBox{
+  max-width: 200px;
+  max-height: 301;
+  overflow: hidden;
+}
+
+
+
 header {
 position: absolute;
 top: 0;
@@ -81,7 +90,7 @@ header .act
   .content .textBox p{
     color: #333;
   }
-  .content .textBox a{
+  .content .textBox button{
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
@@ -126,24 +135,7 @@ header .act
   .thumb li video{
     max-width: 60px;
   }
-  .sci{
-    position: absolute;
-    top: 70%;
-    right: 30px;
-    transform: translate(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .sci li{
- list-style: none;
-  }
-  .sci li a{
-    display: inline-block;
-    margin: 5px 0;
-    transform: scale(0.6);
-  }
+
 .circle{
     background-color: #256125;
     position: absolute;
