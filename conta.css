@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+
+}
+
+body{
+    background-color: #D3F4D6;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card
+{
+    background-color:#25612595;
+    padding: 50px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px ;
+}
+
+h1
+{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #D3F4D6;
+}
+
+.label-float input
+{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #D3F4D670;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+.label-float
+{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.label-float input:focus
+{
+border-bottom: 2px solid #D3F4D690;
+
+}
+
+.label-float label
+{
+    color:#D3F4D6;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+input
+{
+    color: whitesmoke;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label
+{
+    color: #D3F4D6;
+    font-size: 13px;
+    margin-top: 0;
+}
+
+button
+{
+    background-color: transparent;
+    border-color: #D3F4D650;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+}
+
+button:hover
+{
+    background-color:#93C293;
+    transition: all .4s ease-out;
+}
+
+.justify-center
+{
+    display: flex;
+    justify-content: center;
+}
+
+hr
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+}
+
+p
+{
+    color: whitesmoke;
+    font-size: 14pt;
+    text-align: center;
+    padding: 15px;
+}
+
+a
+{
+    font-weight: bold;
+    text-decoration: none;
+    color: #F53632;
+}
