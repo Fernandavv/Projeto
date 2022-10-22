@@ -146,7 +146,8 @@ header .act
     clip-path: circle(600px at right 800px);
 }
 
-video
+.player
 {
-  margin-left: 18%;
+  margin-top: 2%;
+  text-align: center;
 }
