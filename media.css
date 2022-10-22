@@ -85,6 +85,10 @@
     {
         margin-top: 13%;
     }
+    video
+    {
+        width: 100%;
+    }
 }
 
 @media (max-width:782px){
@@ -105,4 +109,14 @@
       margin-left: 14%;
       width: 70%;
   }
+}
+
+@media (max-width:425px)
+{
+.answer .resposta
+{
+  padding-top: 1rem;
+  line-height: 1.6;
+  font-size: 1rem;
+}
 }
