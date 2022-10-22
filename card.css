@@ -1,18 +1,14 @@
-
-  .titulo{
-      display: flex;
-      flex-direction: row-reverse;
-  }
   .planos{
       display: flex;
   }
   
   .container{
+      position: relative;
       text-align: center;
       margin: auto;
       display: grid;
       grid-template-columns: 1fr ;
-      grid-template-rows:  .4fr .7fr .1fr;
+      grid-template-rows:  .1fr .1fr .1fr;
       grid-template-areas: "titulo"
                            "planos"
                            "orcamento";
@@ -20,11 +16,22 @@
       padding: 1px;   
   }
   
-  .titulo{
-      justify-content:center;
-      align-items: center;
+  .informacao{
+      position: relative;
+      font-weight: 500;
       grid-area: titulo;
+      padding: 1.5%;
+      margin: 1.5%;
+      text-align: justify;
+      font-size: 1.1rem;
   }
+
+  h1
+  {
+    text-align: center;
+    text-decoration:underline;
+  }
+
   
   .planos{
       grid-area: planos;

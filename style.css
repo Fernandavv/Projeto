@@ -145,3 +145,8 @@ header .act
     height: 100%;
     clip-path: circle(600px at right 800px);
 }
+
+video
+{
+  margin-left: 18%;
+}

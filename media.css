@@ -1,4 +1,5 @@
 @media (max-width:991px){
+    
     header{
         padding: 20px;
     }
@@ -80,4 +81,28 @@
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
     }
+    #titulo
+    {
+        margin-top: 13%;
+    }
+}
+
+@media (max-width:782px){
+    .planos{
+        justify-content: space-around;
+        row-gap: 4em;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .card 
+  {
+      background-color: #256125;
+      color: #D3F4D6;   
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      border-radius: 5px;
+      margin-left: 14%;
+      width: 70%;
+  }
 }
