@@ -8,8 +8,9 @@
 }
 
 body{
-    background-color: #D3F4D6;
-}
+    background-image: linear-gradient(to right,#9adf9a, #069e9c,#fd9ab5);  
+    background-attachment: fixed;
+}  
 
 .container
 {
@@ -21,17 +22,17 @@ body{
 
 .card
 {
-    background-color:#25612595;
+    background-color:#ffffff;
     padding: 50px;
     border-radius: 4%;
-    box-shadow: 3px 3px 1px 0px ;
+    
 }
 
 h1
 {
     text-align: center;
     margin-bottom: 20px;
-    color: #D3F4D6;
+    color: #000000;
 }
 
 .label-float input
@@ -40,7 +41,7 @@ h1
     padding: 5px 5px;
     display: inline-block;
     border: 0;
-    border-bottom: 2px solid #D3F4D670;
+    border-bottom: 2px solid #D3F4D6;
     background-color: transparent;
     outline: none;
     min-width: 180px;
@@ -60,13 +61,20 @@ h1
 
 .label-float input:focus
 {
-border-bottom: 2px solid #D3F4D690;
+border-bottom: 2px solid #D3F4D6;
 
+}
+#esqueceu{
+    color: #2dbd6e;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
 }
 
 .label-float label
 {
-    color:#D3F4D6;
+    color: #000000;;
     pointer-events: none;
     position: absolute;
     top: 0;
@@ -91,20 +99,20 @@ input
 button
 {
     background-color: transparent;
-    border-color: #D3F4D650;
+    border-color: #6beb75;
     padding: 7px;
     font-weight: bold;
     font-size: 12pt;
     margin-top: 20px;
-    border-radius: 4px;
+    border-radius: 21px;
     cursor: pointer;
     outline: none;
-    color: #fff;
+    color: #000000;
 }
 
 button:hover
 {
-    background-color:#93C293;
+    background-color:#6beb75;
     transition: all .4s ease-out;
 }
 
@@ -123,23 +131,16 @@ hr
 
 p
 {
-    color: whitesmoke;
+    color: #42d44e;
     font-size: 14pt;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 a
 {
-    font-weight: bold;
+
+    color: #42d44e;
     text-decoration: none;
-    color: #F53632;
 }
 
-#login
-{
-    color: whitesmoke;
-}
-#login:hover{
-    color: #256125;
-}
