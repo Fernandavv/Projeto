@@ -1,0 +1,68 @@
+  .planos{
+      display: flex;
+  }
+  
+  .container{
+      position: relative;
+      text-align: center;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr ;
+      grid-template-rows:  .1fr .1fr .1fr;
+      grid-template-areas: "titulo"
+                           "planos"
+                           "orcamento";
+      gap: 4em;
+      padding: 1px;   
+  }
+  
+  .informacao{
+      position: relative;
+      font-weight: 500;
+      grid-area: titulo;
+      padding: 1.5%;
+      margin: 1.5%;
+      text-align: justify;
+      font-size: 1rem;
+  }
+
+  h1
+  {
+    text-align: center;
+    text-decoration:underline
+  }
+
+  
+  .planos{
+      grid-area: planos;
+      justify-content: space-around;
+      column-gap: 4em;
+  }
+  
+  .card 
+  {
+      background-color: #256125;
+      color: #D3F4D6;   
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      border-radius: 5px;
+      
+  }
+  
+  .card:hover 
+  {    
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+    .container-card 
+  {
+      padding: 10px 16px;
+  }
+    img 
+  {
+      border-radius: 5px 5px 0 0;
+  }
+  
+  .orcamento{
+      grid-area: orcamento;
+  }
