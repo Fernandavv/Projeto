@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="feedb.css">
     <link rel="stylesheet" href="media.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -17,11 +18,22 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Planos.html">Planos</a></li>
                 <li><a href="FeedBack.html"class="active">FeedBack</a></li>
-                <li><a href="FAQ.html">FAQ</a></li>
-                <li><a href="Sobre.html">Sobre</a></li>
+                <li><a href="Orçamento.html">Orçamento</a></li>
                 <li><a href="Login.html" class="act">Entrar</a></li>
             </ul>
         </header>
-    </section>
+        <main>
+       <p><strong> Controles de caixa de comentários</strong></p>
+       <form name="Cadastro" method="GET" action="script.php">
+        
+
+        <textarea rows="8" cols="50" name="comentarios" id="coment" maxlength="300" minlength="20"></textarea><br>
+
+        <br>    
+        <input type="submit" value="Enviar"/>
+
+       </form>
+    </main>
+    <script src="script.js"></script></body>
 </body>
 </html>
